@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+}
+​
+.parallax {
+    background-image: url(./assets/mountains1.jpg);
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+​
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+​
+.parallax2 {
+    background-image: url(./assets/mountains2.jpg);
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+​
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+​
+#box {
+    position: relative;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    font-family: 'Economica', sans-serif;
+    text-align: center;
+}
+​
+#border {
+    background-color: black;
+    color: whitesmoke;
+    padding: 20px;
+    font-size: 25px;
+    letter-spacing: 10px;
+}
+​
+.section {
+    width: 100vw;
+    background-color: whitesmoke;
+    text-align: center;
+    padding-top: 5em;
+    padding-bottom: 5em;
+}
+​
+.section span {
+    font-size: 2.5em;
+    letter-spacing: 10px;
+    font-family: 'Economica', sans-serif;
+    text-transform: uppercase;
+}
+​
+.title {
+    font-family: 'Dosis', sans-serif;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-size: 1.5em;
+}
+​
+.blurb {
+    font-family: 'Dosis', sans-serif;
+    font-size: 1.2em;
+}
+​
+ul li {
+    padding: 2px;
+}
+​
+ul {
+    list-style-type: none;
+    color: #9D9D9D
+}
